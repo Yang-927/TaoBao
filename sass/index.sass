@@ -1,0 +1,100 @@
+$rem: 75
+@function px2rem($px)
+	@return $px/$rem * 1rem
+body
+	font-size: 16px
+	background: #f4f4f4
+header
+	width: 10rem
+	height: px2rem(74)
+	background: #ff852a
+	display: flex
+	// justify-content: center
+	align-items: center
+	.logo
+		width: px2rem(54)
+		height: px2rem(39)
+		background: url('../image/2.png') 0 0/cover
+		margin-left: px2rem(18)
+		margin-right: px2rem(12)
+	form
+		width: px2rem(574)
+		height: px2rem(50)
+		background: #ea4933
+		border-radius: 5px
+		display: flex
+		justify-content: center
+		align-items: center
+		.icon-search
+			display: block
+			width: px2rem(29)
+			height: px2rem(29)
+			background: url('../image/1.png') 0 0/cover
+		span
+			color: #fff
+section
+	width: 10rem
+	height: px2rem(236)
+	div.imgBox
+		width: 10rem
+		height: px2rem(236)
+		img
+			width: 10rem
+			height: px2rem(236)
+			display: block
+div.navBox
+	width: 10rem
+	height: px2rem(352)
+	background: #fff
+	position: relative
+	div.hu
+		width: 10rem
+		height: px2rem(20)
+		background: url('../image/hu.png') no-repeat
+		background-size: 100%
+		position: absolute
+		left: 0
+		top: px2rem(-19)
+	div.nav
+		width: 10rem
+		height: px2rem(312)
+		div.navCont
+			width: px2rem(150)
+			height: px2rem(312)
+			float: left
+			a
+				display: block
+				width: px2rem(150)
+				height: px2rem(134)
+				margin-top: px2rem(16)
+				img
+					display: block
+					width: px2rem(122)
+					height: px2rem(96)
+					margin: 0 auto
+				p
+					text-align: center
+					font-size: px2rem(22)
+					line-height: px1rem(30)
+	div.slide
+		width: 10rem
+		height: px2rem(40)
+		position: relative
+		p
+			width: px2rem(100)
+			height: px2rem(6)
+			margin: 0 auto
+			background: #d4d8de
+			position: absolute
+			left: 50%
+			top: 50%
+			margin-left: px2rem(-50)
+			margin-top: px2rem(-3)
+			span
+				width: px2rem(40)
+				height: px2rem(6)
+				border-raidus: 1px
+				background: #ff6700
+				position: absolute
+				left: 0 
+				top: 0

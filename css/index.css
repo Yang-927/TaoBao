@@ -1,0 +1,118 @@
+body {
+  font-size: 16px;
+  background: #f4f4f4;
+}
+
+header {
+  width: 10rem;
+  height: 0.9866666667rem;
+  background: #ff852a;
+  display: flex;
+  align-items: center;
+}
+header .logo {
+  width: 0.72rem;
+  height: 0.52rem;
+  background: url("../image/2.png") 0 0/cover;
+  margin-left: 0.24rem;
+  margin-right: 0.16rem;
+}
+header form {
+  width: 7.6533333333rem;
+  height: 0.6666666667rem;
+  background: #ea4933;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header form .icon-search {
+  display: block;
+  width: 0.3866666667rem;
+  height: 0.3866666667rem;
+  background: url("../image/1.png") 0 0/cover;
+}
+header form span {
+  color: #fff;
+}
+
+section {
+  width: 10rem;
+  height: 3.1466666667rem;
+}
+section div.imgBox {
+  width: 10rem;
+  height: 3.1466666667rem;
+}
+section div.imgBox img {
+  width: 10rem;
+  height: 3.1466666667rem;
+  display: block;
+}
+
+div.navBox {
+  width: 10rem;
+  height: 4.6933333333rem;
+  background: #fff;
+  position: relative;
+}
+div.navBox div.hu {
+  width: 10rem;
+  height: 0.2666666667rem;
+  background: url("../image/hu.png") no-repeat;
+  background-size: 100%;
+  position: absolute;
+  left: 0;
+  top: -0.2533333333rem;
+}
+div.navBox div.nav {
+  width: 10rem;
+  height: 4.16rem;
+}
+div.navBox div.nav div.navCont {
+  width: 2rem;
+  height: 4.16rem;
+  float: left;
+}
+div.navBox div.nav div.navCont a {
+  display: block;
+  width: 2rem;
+  height: 1.7866666667rem;
+  margin-top: 0.2133333333rem;
+}
+div.navBox div.nav div.navCont a img {
+  display: block;
+  width: 1.6266666667rem;
+  height: 1.28rem;
+  margin: 0 auto;
+}
+div.navBox div.nav div.navCont a p {
+  text-align: center;
+  font-size: 0.2933333333rem;
+  line-height: px1rem(30);
+}
+div.navBox div.slide {
+  width: 10rem;
+  height: 0.5333333333rem;
+  position: relative;
+}
+div.navBox div.slide p {
+  width: 1.3333333333rem;
+  height: 0.08rem;
+  margin: 0 auto;
+  background: #d4d8de;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -0.6666666667rem;
+  margin-top: -0.04rem;
+}
+div.navBox div.slide p span {
+  width: 0.5333333333rem;
+  height: 0.08rem;
+  border-raidus: 1px;
+  background: #ff6700;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
