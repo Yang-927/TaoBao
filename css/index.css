@@ -116,3 +116,11 @@ div.navBox div.slide p span {
   left: 0;
   top: 0;
 }
+
+div.listBox {
+  width: 9.52rem;
+  height: 4rem;
+  margin: 0.24rem;
+  background: #fff;
+  border-radius: 0.28rem;
+}
